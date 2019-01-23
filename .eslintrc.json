@@ -1,0 +1,43 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "globals": {
+    "document": true,
+    "window": true,
+    "process": true
+  },
+  "rules": {
+    "import/extensions": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": 0,
+    "react/jsx-filename-extension": 0,
+    "linebreak-style": 0,
+    "react/jsx-filename-extension": 0,
+    "react/prop-types": 0,
+    "no-underscore-dangle": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "quotes": [2, "double", { "avoidEscape": true }],
+    "arrow-parens": [2, "as-needed"],
+    "react/destructuring-assignment": "off",
+    "import/prefer-default-export": "off",
+    "prefer-const": "off",
+    "react/prefer-stateless-function": "off",
+    /* "no-unused-vars": "off", */
+    "comma-dangle": ["error", "never"],
+    "no-shadow": "off",
+    "no-console": 0,
+    "no-param-reassign": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "click-events-have-key-event": "off",
+    "react/sort-comp": "off",
+    "react/button-has-type": "off",
+    "arrow-body-style": "off",
+    "no-nested-ternary": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "react/no-access-state-in-setstate": "off",
+    "jsx-a11y/alt-text": "off",
+    "jsx-a11y/label-has-associated-control": [0],
+    "jsx-a11y/label-has-for": [0]
+  }
+}

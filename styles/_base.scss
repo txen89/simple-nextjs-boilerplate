@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Helvetica,
+    sans-serif;
+}
+
+.nav {
+  text-align: center;
+  display: flex;
+  & > a {
+    padding: 10px 22px;
+    color: #067df7;
+    text-decoration: none;
+    font-size: 13px;
+  }
+}

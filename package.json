@@ -1,0 +1,52 @@
+{
+  "name": "simple-nextjs-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple boilerplate w/ NextJS Config, Redux, Axios, Sass, Styled Components, ESLint, Dynamic routing...",
+  "authors": [
+    "Nemanja Ignjatovic (https://github.com/txen89)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/txen89/simple-nextjs-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/txen89/simple-nextjs-boilerplate/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.18.0",
+    "next": "^7.0.2",
+    "next-redux-wrapper": "^2.1.0",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-styled-flexboxgrid": "^3.0.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.7",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-module-resolver": "^3.1.3",
+    "eslint": "^5.1.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-import-resolver-babel-module": "^5.0.0-beta.1",
+    "eslint-plugin-flowtype": "^3.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.5.1",
+    "prettier": "^1.9.2"
+  }
+}
