@@ -16,11 +16,13 @@ export const makeStore = (initialState, options) => {
   return createStore(
     rootReducers,
     initialState,
-    composeWithDevTools(
-      applyMiddleware(
-        thunkMiddleware,
-        process.env.NODE_ENV === "development" ? logger : null
-      )
-    )
+    process.env.NODE_ENV === "development"
+      ? composeWithDevTools(
+          applyMiddleware(
+            thunkMiddleware,
+            process.env.NODE_ENV === "development" ? logger : null
+          )
+        )
+      : applyMiddleware(thunkMiddleware)
   );
 };
